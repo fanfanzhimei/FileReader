@@ -1,0 +1,51 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/black">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            style="@style/TextView"
+            android:text="@string/str_file_name" />
+
+        <TextView
+            style="@style/TextView"
+            android:text="@string/str_file_path"
+            android:textSize="12sp"/>
+
+        <TextView
+            android:id="@+id/tv_path"
+            style="@style/TextView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:singleLine="true"
+            android:textSize="12sp"
+            android:text=""/>
+    </LinearLayout>
+
+
+    <EditText
+        android:id="@+id/et_name"
+        style="@style/EditView"
+        android:singleLine="true"/>
+
+    <TextView
+       style="@style/TextView"
+        android:text="文件内容"/>
+
+    <EditText
+        android:id="@+id/et_content"
+        style="@style/EditView"
+        android:minLines="4"/>
+
+    <Button
+        android:id="@+id/btn_save"
+        style="@style/Button"
+        android:text="保存"/>
+</LinearLayout>

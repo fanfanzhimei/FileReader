@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">FileStore</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="str_null_file_name">文件名不能为空</string>
+    <string name="str_null_file_content">文件内容不能为空</string>
+    <string name="str_file_success">保存成功</string>
+    <string name="str_file_fail">保存失败</string>
+    <string name="str_file_name">文件名称</string>
+    <string name="str_file_path">路径:</string>
+    <string name="str_file_path_not_found">保存失败，路径不存在</string>
+</resources>
